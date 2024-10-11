@@ -23,10 +23,10 @@ Los datos a estudiar son:
 * Los individuos: que son los objetos de estudio.
 * Las variables: que son las características que posee el objeto.
 
-En el ejemplo tenemos:
+        Ejemplo:
 
-* Individuos → personas
-* Variables → altura (m)
+        * Individuos → personas
+        * Variables → altura (m)
 
 > ![alt text](Imagenes/1.png)
 
@@ -49,20 +49,20 @@ En el ejemplo tenemos:
     - De proporción: Tienen un orden, la diferencia entre valores es significativa y tienen un cero absoluto (por ejemplo, la altura, el peso).
 
 
-En el ejemplo de variables cualitativas:
+            Ejemplo de variables cualitativas:
 
-* Individuos → 6 tipos de maletas.
-* Variable cuatitativa → Cantidad de maletas.
-* Variable cualitativa → El color de maleta y si tiene o no rueditas.
+            * Individuos → 6 tipos de maletas.
+            * Variable cuatitativa → Cantidad de maletas.
+            * Variable cualitativa → El color de maleta y si tiene o no rueditas.
 
 >![alt text](Imagenes/2.png)
 
-Ejemplo de niveles de medidas:
+        Ejemplo de niveles de medidas:
 
-Tenemos en el ejemplo:
+        Tenemos en el ejemplo:
 
-* 2 individuos → 2 departamentos
-* Variables → 19
+        * 2 individuos → 2 departamentos
+        * Variables → 19
 
 >![alt text](Imagenes/3.png)
 
@@ -93,7 +93,7 @@ Tenemos en el ejemplo:
 
 
 
- ### **Tablas Unidimensionales y Bidimensionales**
+ ## **Tablas Unidimensionales y Bidimensionales**
 
 Para identificar si la tabla es unidimensional o bidimensional, debo responder a la pregunta: ¿Cuántas preguntas me tengo que hacer para identificar el valor que estoy buscando?
 
@@ -106,5 +106,130 @@ Para identificar si la tabla es unidimensional o bidimensional, debo responder a
 
 ### **Visualización**
 
-- **Diagramas de tallo**: Una tabla de tallos y hojas se utiliza para mostrar datos. El 'tallo' a la izquierda muestra el primer dígito o dígitos, en este caso las decenas. La 'hoja' a la derecha muestra el último dígito, es decir, las unidades.
+**Diagramas de tallo**
+
+ Una tabla de tallos y hojas se utiliza para mostrar datos. El 'tallo' a la izquierda muestra el primer dígito o dígitos, en este caso las decenas. La 'hoja' a la derecha muestra el último dígito, es decir, las unidades.
+
+>![alt text](Imagenes/4.png)
+
+
+**Gráfico de puntos**
+
+Un diagrama de puntos muestra datos y sus frecuencias a lo largo de una recta numérica. Cada punto puede tomar el valor de una unidad o un valor representativo dentro de una escala.
+
+**Gráfico de barras**
+
+Un diagrama de barras es un gráfico usado para mostrar un grupo de datos repetidos (representa la frecuencia). Pueden tomar datos más grandes.
+
+**Gráfico de barras horizontal**
+
+Es recomendable usar el gráfico de barras horizontal si se quiere mostrar un orden específico, para mostrar los valores más representativos.
+
+**Gráfico de pastel o circular (pie chart)**
+
+Este diagrama también representa la frecuencia en un set de datos. Se puede tomar valores de la frecuencia total o frecuencia relativa.
+
+**Gráfico de línea**
+
+Los gráficos de líneas muestran puntos conectados mediante una línea. Es recomendable usar esta gráfica con muchos datos y que tienen lugar durante un período continuado de tiempo.
+
+**Gráfico de ojiva**
+
+Es similar al gráfico de línea, pero este representa acumulación respecto al tiempo.
+
+>![alt text](Imagenes/5.png)
+
+
+**Diagramas de Venn**
+
+Nos ayudan a acomodar los datos respecto a cierta preferencia o pertenencia. Es importante para las preferencias combinadas.
+
+**Histograma**
+
+Agrupa intervalos de tamaño o valor similar. Se usan rangos.
+
+>![alt text](Imagenes/6.png)
+
+## **Estadística descriptiva**
+
+La distribución conjunta es cómo se comporta una variable en relación a otra. Estas distribuciones son pensadas respecto a otra variable.
+
+    Ejemplo: Entrevista a 100 individuos que tienen como hábito hacer ejercicio y se quiere relacionar las horas durmiendo respecto a los kilos perdidos en un mes.
+
+    En la tabla conjunta bidimensional tenemos estas dos variables.
+
+>![alt text](Imagenes/7.png)
+
+**Distribución marginal**
+
+Es la distribución que está a los márgenes de nuestra tabla bidimensional.
+
+Independientemente de la otra variable, se pueden hacer conclusiones específicas de mi variable de columnas o de mi variable de filas.
+
+    Ejemplo:
+
+    Podemos observar la distribución marginal sumando los totales de las filas y columnas.
+
+    Si se quiere enfocar la distribución marginal respecto a los kilos perdidos, solo se necesitaría la última fila de la tabla (total). Marginal por columnas - Distribución por kilos perdidos.
+
+**Distribución condicional**
+
+Dada una variable, ¿qué pasa con la otra variable? Se hacen preguntas sobre una variable respecto a la otra.
+
+    Ejemplo:
+
+    Distribución condicional por filas → Las filas suman el 100%.
+
+    De las personas que durmieron entre 3-6 horas, ¿cuánto porcentaje perdió entre 2-4 kilos?
+
+**Medidas de tendencia central**
+
+Las medidas de tendencia central son estadísticas que proporcionan un valor representativo o central de un conjunto de datos. Las medidas más comunes de tendencia central son la media, la mediana y la moda.
+
+* **Media (promedio)**: La media es la suma de todos los valores en un conjunto de datos dividida por el número total de elementos. Se denota como "μ" (mu) para una población o "x̄" (x barra) para una muestra.
+
+**Fórmula**: 
+$$\mu = \frac{x₁ + x₂ + \ldots + x_n}{n}$$ 
+$$\bar{x} = \frac{x₁ + x₂ + \ldots + x_n}{n}$$
+
+>![alt text](Imagenes/8.png)
+
+
+**Mediana**: La mediana es el valor central en un conjunto de datos ordenados. Divide el conjunto de datos en dos partes iguales, donde la mitad de los valores están por encima y la otra mitad están por debajo. Es útil para resumir datos cuando hay valores atípicos o cuando el conjunto de datos no sigue una distribución simétrica.
+
+**Fórmula**: Para un conjunto de datos ordenado de manera ascendente:
+- **Impar**: La mediana es el valor en la posición \((n + 1) / 2\).
+>![alt text](Imagenes/9.png)
+- **Par**: La mediana es el promedio de los dos valores centrales, en las posiciones \(n / 2\) y \((n / 2) + 1\).
+>![alt text](Imagenes/10.png)
+
+    Ejemplo: 
+    Consideremos el conjunto de datos: 5, 7, 9, 10, 12. El conjunto de datos ordenado sería: 5, 7, 9, 10, 12. La mediana sería el valor en la posición \((5 + 1) / 2 = 3\), que es 9.
+
+**Moda**: La moda es el valor que ocurre con mayor frecuencia en un conjunto de datos. Puede haber una moda (unimodal) si un solo valor se repite con más frecuencia, o múltiples modas (multimodal) si varios valores tienen la misma frecuencia máxima. También puede haber casos donde no haya moda en absoluto (datos sin modas).
+
+    Ejemplo: Consideremos el conjunto de datos: 2, 4, 4, 6, 8. En este caso, la moda es 4, ya que ocurre con mayor frecuencia en el conjunto de datos.
+
+**Medidas de dispersión**
+
+
+Las medidas de dispersión describen qué tan juntos o separados entre sí se encuentran los valores. Esta vez estudiaremos el rango e índice intercuartílico (IQR).
+
+* **Rango**: Medida que nos indica la distancia de nuestros valores y se calcula restando: valor máximo - valor mínimo.
+    **Formúla**
+    $$\text{Rango} = \text{max} - \text{min}$$
+
+* **Índice intercuartílico (RIQ o IQR)**: Diferencia entre el tercer y primer cuartil de una distribución.
+
+    **Formúla:**
+    $$\text{IQR} = Q3 - Q1$$
+
+* **Cuartil**: Distribución en cuartiles o en cuartos de los datos.
+
+
+
+
+
+
+
 
