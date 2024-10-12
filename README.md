@@ -274,3 +274,16 @@ Los Bigotes son las líneas verticales que se extienden desde la caja hasta los 
 Valores átipicos (outliers):
 
 Estos valores son aquellos que están más allá del límite inferior o superior.
+
+## Media, varianza y desviación estándar
+
+
+- **Media**: Es el promedio de un conjunto de datos. Para la media poblacional se usa la letra griega µ (miu), y para la media muestral se usa X̅ (promedio aritmético). La fórmula es la suma de todos los valores dividida por la cantidad de datos.
+
+- **Varianza**: Mide la dispersión de los datos respecto a la media. La varianza muestral se calcula restando cada valor del promedio, elevando al cuadrado esas diferencias, sumándolas y dividiendo por n-1 (donde n es el tamaño de la muestra). La varianza poblacional se calcula de manera similar, pero se divide por N (tamaño de la población).
+
+- **Desviación estándar**: Es la raíz cuadrada de la varianza y proporciona una medida de dispersión en la misma escala que los datos originales. Si la desviación estándar es mayor, los datos están más alejados de la media; si es menor, están más cerca del promedio.
+
+>![alt text](Imagenes/13.png)
+
+>![alt text](Imagenes/14.png)
