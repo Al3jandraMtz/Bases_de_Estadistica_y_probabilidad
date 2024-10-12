@@ -227,9 +227,50 @@ Las medidas de dispersión describen qué tan juntos o separados entre sí se en
 * **Cuartil**: Distribución en cuartiles o en cuartos de los datos.
 
 
+## Desplazamiento y escala de valores
 
+El desplazamiento y la escala de valores son modificaciones que les puede ocurrir a nuestros datos y esto afecta las medidas de dispersión y tendencia. Estos son los siguientes casos que se pueden presentar de desplazamiento y sus implicaciones en los datos:
 
+1. **Desplazamiento (suma y resta).**
+La media, la mediana y la moda se modificarán, si todos los datos de nuestra escala se suma o resta el mismo número, la media, mediana y moda tambien sufrirán de esta modificación.
+El rango y el IQR no reciben ninguna modificación cuando todos los valores de nuestra tabla sufren la misma cantidad de sumatoria o resta.
 
+2.**Escalar (multiplicación y división).**
+Todas las medidas de dispersión y tendencia sufren una modificación, sin embargo, si todos los datos son multiplicados por la misma cifra, al multiplicar por dicha cifra nuestras medidas obtendremos el resultado.
+Añadir o quitar un punto de datos en el conjunto.
+En estos casos nuestras medidas cambian completamente dependiendo los datos que eliminemos, para asegurarnos de tener las medidas correctas debemos reformular todas las medidas. 
+    
+    Ejemplo: Si eliminamos el número que obtuvimos en la moda, puede que este ya no sea el valor que mas se repita, al eliminar o añadir un dato, tanto el rango como la mediana, la media y el IQR se dividen por otros números totales, dándonos un valor diferente al inicial.
 
+>![alt text](Imagenes/11.png)
 
+## Boxplot o diagrama de caja
 
+Este tipo de gráficos nos permite identificar valores atípicos y comparar distribuciones. Además de conocer de forma rápida como se distribuyen el 50% de los valores centrales.
+
+Las ventajas  principales de representar la distribución de los datos utilizando este método son:
+
+Visualizar si la distribución de una variable es asimétrica o se aleja de la distribución normal.
+La facilidad al comparar distribuciones entre grupos. Aunque se tendrá que usar técnicas estadísticas para establecer la significación de las diferencias percibidas.
+Interpretación:
+
+Caja:
+
+La caja está determinada por la distancia del rango cuartilico, que es la diferencia entre el primer y tercer cuartil. El segmento que divide a la caja es la mediana.
+
+Si la mediana se sitúa en el centro de la caja, entonces la distribución es simétrica y tanto la media, mediana y moda coinciden.
+Si la mediana corta la caja en dos lados desicuales se tiene:
+Asimetría positiva o sesgada a la derecha si la parte más larga de la caja es la parte superior a la mediana. Los datos se concentran en la parte inferior de la distribución. La media suele ser mayor a la mediana.
+
+Asimetría negativa o sesgada a la izquierda si la parte más larga es la inferior a la mediana. Los datos se concentran en la parte superior de la distribución. La media suele ser menor que la mediana.
+
+>![alt text](Imagenes/12.png)
+
+💡 Que un lado de la caja sea más amplio que el otro, no quiere decir que contenga más datos, si no que los datos están más dispersos. Un rango menos amplio, indica que los datos están más próximos. </aside>
+Bigotes:
+
+Los Bigotes son las líneas verticales que se extienden desde la caja hasta los valores máximo y mínimo de la serie o 1.5 veces el IQR.
+
+Valores átipicos (outliers):
+
+Estos valores son aquellos que están más allá del límite inferior o superior.
