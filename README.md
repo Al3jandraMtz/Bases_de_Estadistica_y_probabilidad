@@ -413,3 +413,9 @@ La probabilidad es la ciencia que mide la certidumbre de que ocurra o no un even
 * Probabilidad experimental: El evento que cumpla con nuestro criterio esté dentro de todos los resultados que hayamos anotado con cada experimento hecho.
 
 ![alt text](image-8.png)
+
+**Regla de la suma**
+
+La probabilidad de tener un evento u otro va a ser igual a la suma de la probabilidad de mi primer evento más la probabilidad de mi segundo evento menos la probabilidad de la intersección de ambos eventos.
+
+![alt text](image-9.png)
