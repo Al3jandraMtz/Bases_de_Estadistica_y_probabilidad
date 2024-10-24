@@ -287,3 +287,129 @@ Estos valores son aquellos que están más allá del límite inferior o superior
 >![alt text](Imagenes/13.png)
 
 >![alt text](Imagenes/14.png)
+
+## Histogramas, polígonos de frecuencia y curvas de densidad
+
+* Histograma: Toma un intervalo y dentro de ese intervalo cuenta los eventos.
+* Histograma de frecuencia relativa: mismo histograma pero comparado con un todo en porcentaje.
+
+>![alt text](15.png)
+
+
+* Polígono de frecuencia: Unión de los puntos más altos del histograma.
+
+![alt text](image-1.png)
+
+
+* Curva de densidad: Polígono de frecuencia suavizado del 100% de los datos utilizado para visualizar el rango de los datos.
+
+![alt text](image-2.png)
+
+
+## Distribuciones simétricas y asimétricas
+
+### Distribuciones Simétricas 
+
+Cuando los datos de la izquierda son los mismos que la derecha respecto a la media. La media y mediana están en el punto central.
+En los gráficas podemos determinar que la moda es diferente para cada gráfica, el gráfico superior nos indica que las medidas de tendencia central están en el mismo punto (media, mediana y moda); mientras que la segunda gráfica que es bimodal, indica que tiene 2 modas.
+
+![alt text](image-3.png)
+
+Distribución normal
+
+* Tambien llamada “de campana”,”de Gauss” o “Gaussiana”
+* Sus medidas de tendencia central son las mismas
+* Su “50%” central está dentro de 2/3 de desviación estándar hacia la izquierda y derecha de la media.
+
+### Distribuciones asímetricas
+
+ Cuando los datos tienden hacia la izquierda o hacia la derecha. Gran cantidad de valores atípicos. La cola es la gran concentración de valores atípicos
+Menor frecuencia a mayor distancia que nos estemos alejando de nuetros datos.
+
+La gráfica superior indica que tiene distribución asimétrica positiva ya que la cola tiende hacia la derecha (se hace más delgada a la derecha).
+
+La gráfica inferior indica que la mayoría de datos se concentran en la parte derecha y nuestos valores atípicos tienden hacia la izquierda, entonces tenemos una distribución asimétrica negativa.
+
+![alt text](image-4.png)
+
+La moda será el punto más alto, es decir el valor más frecuente.
+
+La mediana (representa el punto de equilibrio) :
+
+1. En la distribución asimétrica positiva estará a la derecha de la moda
+2. En la distribución asimétrica negativa estará a la izquierda de la moda:
+
+La media:
+
+1. En la distribución asimétrica positiva estará a la derecha de la mediana
+2. En la distribución asimétrica negativa estará a la izquierda de la mediana
+
+![alt text](image-5.png)
+
+**Valores Atípicos**
+
+* Valores atípicos bajos
+Q1 - 1.5 (IQR)
+* Valores atípicos altos
+Q3 + 1.5 (IQR)
+
+
+## Métodos de recopilación de datos
+
+Objetivo de la Estadística → Tener valores representativos que nos indiquen dentro de una población o muestra de estudio algo que necesitamos saber.
+
+**Población:** Es el universo, conjunto o todo, de datos sobre los que se harán estudios.
+* Medidas de tendencia central y medidas de dispersión. (Media poblacional y desviación estándar poblacional).
+
+**Muestra:** Selección aleatoria y respresentativa de la población que vamos a analizar.
+
+* Medidas de tendencia central y medidas de dispersión. (Media muestral y desviación estándar muestral).
+
+**Recopilación de datos**
+
+* Estudios Observacionales → Son aquellos en los cuales nuestra muestra es intacta, sólo se analiza. No se introducirá ningun tratamiento o afectación. Estos datos se recopilan en:
+    - Tablas unidimensionales
+    - Tablas bidimensionales
+
+* Estudio Experimental → Dentro de este estudio se aplicará un tratamiento a la muestra, se introduce algo que se quiere identificar como afectador o no.
+
+    Características
+    - Muestras aleatorias.
+    - Se usan 2 grupos: 
+        - Grupo de control: Se divide en **control ciego** (La muestra no sabe si recibe placebo/tratamiento) o **doblemente ciego** (Ni experimentadores ni muestreo saben en que grupo estan).
+        - Grupo de estudio.
+    - Replicación
+    - Bloqueo (matched pairs) Que el grupo sea equitativo respecto a género, edad etc.
+    - Comumente estos estudios Involucran adicciones o medicamentos.
+
+## Muestreo y Sesgo
+
+![alt text](image-6.png)
+
+**Muestreo:** Proceso de selección de una muestra de una población para realizar un estudio estadístico.
+
+**Sesgo:** Variación que no nos ayuda a encontrar lo que estamos buscando, no es un error.
+
+* Sesgo de respuesta
+    - Medición incorrecta
+    - Deseabilidad social
+    - Preguntas inductivas o capciosas
+
+* Sesgo de infracobertura
+    - Selección
+    - Respuesta voluntaria
+    - Muestreo a conveniencia
+
+* Sesgo de no respuesta
+
+## ¿Qué es la probabilidad y cómo se relaciona con la estadística?
+
+La probabilidad es la ciencia que mide la certidumbre de que ocurra o no un evento.
+
+* Probabilidad simple o teórica:  número de resultados favorables/número total de resultados posibles. Los eventos deben tener la misma probabilidad de ocurrir. Valor de 0 a 1 o de 0 a 100%
+
+![alt text](image-7.png)
+
+* Probabilidad experimental: El evento que cumpla con nuestro criterio esté dentro de todos los resultados que hayamos anotado con cada experimento hecho.
+
+![alt text](image-8.png)
