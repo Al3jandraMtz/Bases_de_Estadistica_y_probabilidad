@@ -419,3 +419,12 @@ La probabilidad es la ciencia que mide la certidumbre de que ocurra o no un even
 La probabilidad de tener un evento u otro va a ser igual a la suma de la probabilidad de mi primer evento más la probabilidad de mi segundo evento menos la probabilidad de la intersección de ambos eventos.
 
 ![alt text](image-9.png)
+
+**Probabilidad condicional**
+
+Aquella medida que nos dice cuál es la probabilidad de un eventoo afectado por otro previamente.
+
+![alt text](image-10.png)
+
+* Eventos independientes: Solo los eventos que realizados de forma sucesiva no afectan al siguiente evento/acción.
+* Eventos dependientes: Aquellos que a cada una de su realización van a afectar al evento subsecuente.
